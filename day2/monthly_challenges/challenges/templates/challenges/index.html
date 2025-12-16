@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Challenges</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Page</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Content Section</h2>
+            <p>This is where the main content goes.</p>
+            <ul>
+                {% for month in months %}
+                    <li><a href= "">{{month | title}}</a></li>
+                {% endfor %}
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+</body>
+</html>

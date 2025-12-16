@@ -1,0 +1,16 @@
+{% load static %}
+
+<li>
+    <article class="post">
+        <a href="{% url 'post-detail-page' 'the-mountains' %}">
+            <img src="{% static 'blog/images/linkedin.png' %}" alt="mountain hiking" />
+            
+            <div class="post_content">
+                <h3>Exploring the Mountains: A Journey to Remember</h3>
+                <p>
+                    Join me as I recount my recent adventure hiking through the breathtaking mountain ranges.
+                </p>
+            </div>
+        </a>
+    </article>
+</li>
